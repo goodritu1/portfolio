@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding:10px;
+  margin: 10px;
+
+}  /*
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  */
+
+  header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1%;
+    background-color: #7aa279;
+    color: #fff;
+  }
+   h1 {
+    font-size:200%;
+    color: #fff;
+   }
+   
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a::after{
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+    content:app;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  
+  aside {
+    
+    background-color:#a9c2b3;
+    padding:2%;
+    text-align: left;
+  }
+  
+  footer {
+    display:flex;
+    justify-content: space-between;
+    padding:2%;
+    background-color: #7aa279;
+  }
+  
+  .products {
+    flex: 4;
+    background-color: #d6e3d9;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  /* Added rotation, box-shadow, border-radius */
+  .Work{
+    width: 400px;
+    height: 200px;
+    border-color:black;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Added border-radius to match the card */
+  .card header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
