@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0190)https://li.protechts.net/index.html?ts=1712818210430&r_id=AAYVzI%2F%2FNzP0KE0Ib8cgZg%3D%3D&app_id=PXdOjV695v&uc=scraping&d_id=38be1557e9a5cb10d8e38a01cf91d39ba0236a07f382b4e6245f61904f84294f -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <script>
+        function getDecodedQueryParams(queryString) {
+            var params = {};
+            var query = queryString.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                try {
+                    var pair = vars[i].split('=');
+                    params[pair[0]] = decodeURIComponent(pair[1]);
+                } catch(e) {
+                    // ignore
+                }
+            }
+            return params;
+        }
+        var params = getDecodedQueryParams(window.location.search);
+        var appId = params['app_id'];
+        window._pxParam2 = params['d_id'];
+        window._pxParam3 = params['r_id'];
+        window._pxParam4 = params['uc'];
+        window._pxParam5 = params['pt'];
+
+        // Local sensor injection
+        var s = document.createElement('script');
+        s.src = 'https://client.protechts.net/' + appId + '/main.min.js';
+        document.head.appendChild(s);
+    </script><script src="./main.min.js"></script>
+</head>
+<body>
+
+<div><span style="position: absolute; left: -9999px; font-size: 72px; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: normal; text-transform: none; text-align: left; text-decoration: none; text-shadow: none; white-space: normal; word-break: normal; word-spacing: normal;">mmmmmmmmmmlli</span><span style="position: absolute; left: -9999px; font-size: 72px; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: normal; text-transform: none; text-align: left; text-decoration: none; text-shadow: none; white-space: normal; word-break: normal; word-spacing: normal; font-family: test-font;">mmmmmmmmmmlli</span><span style="position: absolute; left: -9999px; font-size: 72px; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: normal; text-transform: none; text-align: left; text-decoration: none; text-shadow: none; white-space: normal; word-break: normal; word-spacing: normal; font-family: Noteworthy;">mmmmmmmmmmlli</span></div></body></html>

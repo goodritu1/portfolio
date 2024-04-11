@@ -114,11 +114,39 @@ main {
     text-align: center;
     
   }
-  #projects {
+  .projects {
     display: flex;
     margin-block-end: 0%;
     justify-content:center;
     align-items: flex-start;
+
+  }
+  .btn1{
+    position: absolute;
+    top:50%;
+    right: 40%;
+    padding: 20px;
+    background-color: #263754;
+    color: white;
+  }
+
+  .btn1:hover {
+    cursor: pointer;
+
+  }
+
+  .btn2{
+    position:relative;
+    bottom:45%;
+    left: 40%;
+    padding: 20px;
+    background-color: #354663;
+    color:white
+
+  }
+
+  .btn2:hover {
+    cursor: pointer;
 
   }
 
@@ -142,6 +170,7 @@ main {
     align-items: flex-start;
   }
 
+
   .work{
     flex:2;
     width: 80%;
@@ -149,35 +178,41 @@ main {
   }
   
   
-  .Work1{
+  .horiseon{
+    position: relative;
     display: flex;
     width: 600px;
     height: 400px;
     border-color:black;
     box-shadow: 5px 5px 5px rgb(137, 157, 148);
     border: 3px solid black;
-    background-image: url(./images/work.jpeg);
+    background-color: white;
     padding: 10px;
     margin: 10px;
   }
-  .Work2{
+
+  .horiseon img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .prework{
     width: 600px;
     height: 400px;
     border-color:black;
     box-shadow: 5px 5px 5px rgb(137, 157, 148);
     border: 3px solid black;
-    background-image: url(./images/work2.jpeg);
     padding: 10px;
     margin: 10px;
   }
- 
-  .card p {
-    text-align: center;
-  }
-  
-  .card img {
+
+  .prework img{
+    display: flex;
     width: 100%;
+    height: 100%;
   }
+
   
   @media screen and (max-width: 768px) {
     main,
