@@ -29,14 +29,14 @@ header {
     color: #e7e1e1;
     margin-left: 3%;
    }
-   
+/*    
   nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     align-items: end;
   }
-  
+   */
 nav a {
   display:inline-flex;
   color: #b9C6ae;
@@ -112,6 +112,7 @@ main {
   #workheader{
     color: #0f0e0e;
     text-align: center;
+    padding:2%;
     
   }
   .projects {
